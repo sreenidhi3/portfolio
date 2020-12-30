@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+
+:root{
+    --light-blue : #e7f3fd ;
+    --light-orange :  #fae4da;
+    --light-ocher: #fdecc6;
+    --light-yellow: #feffd0;
+    --dark-blue:  #052238;
+    --light-gray: #343d42;
+}
+
+body{
+    background-color: var(--light-blue);
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar{
+    display: block;
+    margin: 0%;
+    padding: 50px;
+    padding-top: 50px;
+    color: var(--dark-blue);
+    background-color: var(--light-blue);
+}
+
+.nav-brand{
+    font-size: large;
+    margin:10px 0px 10px 0px;
+    font-weight: 800;
+}
+
+.links{
+    text-decoration:none ;
+    text-align: left;
+    display: inline;
+    float:right;
+}
+
+.links li{
+    font-size: small;
+    text-decoration:none ;
+    text-align: left;
+    display: inline;
+    padding-right: 50px;
+    font-weight: 500;
+}
+
+.links a{
+    text-decoration:none ;
+    color: var(--light-gray);
+}
+
+.links .active{
+    color: var(--dark-blue);
+    font-weight: 800;
+}
+
+.header{
+    padding: 100px;
+    margin: auto;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.profile{
+    padding-left: 80px;
+    padding-right: 80px;
+    position: relative;
+    border: none;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 200px;
+}
+
+.right{
+    padding: 0px;
+}
+
+.left{
+    padding: 0px;
+}
